@@ -22,3 +22,6 @@ Your challenge is to build out this art gallery website and get it looking as cl
  *  How did the candidate utilize git-flow processes (feature branches etc. pull requests)? 
  *  How well did the design appeal to the user, colour combination, consistency, usability? 
  *  How well did the candidate present his/her results?
+
+
+![Art gallery site](image.jpg)
