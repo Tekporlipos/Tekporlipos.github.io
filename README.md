@@ -24,4 +24,4 @@ Your challenge is to build out this art gallery website and get it looking as cl
  *  How well did the candidate present his/her results?
 
 
-![Art gallery site](image.jpg)
+![Art gallery site](https://github.com/Amalitech-2022-febuary-trainee/art-gallery-website.github.io/blob/main/preview.jpg?raw=true)
