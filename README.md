@@ -1,7 +1,7 @@
 # [art-gallery-website.github.io](https://www.art-gallery-website.github.io)
 ---
 
-# [ ![AMALITECH]() ](https://www.art-gallery-website.github.io)
+# [ ![AMALITECH](https://github.com/Amalitech-2022-febuary-trainee/art-gallery-website.github.io/blob/main/amalitech.png?raw=true) ](https://amalitech.org/)
 
 ## Project Title: Art gallery site 
 ---
@@ -31,3 +31,27 @@ Your challenge is to build out this art gallery website and get it looking as cl
 ---
 
 ![Art gallery site](https://github.com/Amalitech-2022-febuary-trainee/art-gallery-website.github.io/blob/main/preview.jpg?raw=true)
+
+
+
+
+
+---
+### ***Contributors*** 👷
+
+<br/>
+<img src="https://avatars.githubusercontent.com/u/99683999?v=4" style="border-radius:50%" width="200" height="200">
+Ernest Lamptey <br/>
+
+[ernest-lamptey](https://github.com/ernest-lamptey)
+<br/>
+Back-end Developer
+
+<br/>
+<br/>
+<img src="https://avatars.githubusercontent.com/u/99318031?v=4" style="border-radius:50%" width="200" height="200">
+John Tekpor Dzikunu <br/>
+
+[Tekporlipos](https://github.com/Tekporlipos)
+<br/>
+Full-stack Developer
