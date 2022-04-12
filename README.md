@@ -1,5 +1,5 @@
-# art-gallery-website.github.io
-====
+# [art-gallery-website.github.io](https://www.art-gallery-website.github.io)
+---
 ## Project Title: Art gallery site 
 ---
 
