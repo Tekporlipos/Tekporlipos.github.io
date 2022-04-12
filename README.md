@@ -1,5 +1,8 @@
 # [art-gallery-website.github.io](https://www.art-gallery-website.github.io)
 ---
+
+# [ ![AMALITECH]() ](https://www.art-gallery-website.github.io)
+
 ## Project Title: Art gallery site 
 ---
 
@@ -23,5 +26,8 @@ Your challenge is to build out this art gallery website and get it looking as cl
  *  How well did the design appeal to the user, colour combination, consistency, usability? 
  *  How well did the candidate present his/her results?
 
+
+## **Project Preview...**
+---
 
 ![Art gallery site](https://github.com/Amalitech-2022-febuary-trainee/art-gallery-website.github.io/blob/main/preview.jpg?raw=true)
