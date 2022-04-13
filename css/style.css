@@ -1,0 +1,111 @@
+/* importing two font families from google fonts api */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Outfit&display=swap');
+
+/* resitting body :default parameters and setting the overlay on x axis to hidden to avoid x scroll */
+body{
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+/* footer styling for desktop view */
+
+.footer{
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    background: #151515;
+    display: flex;
+    justify-content: stretch;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+}
+
+.social{
+    flex: 4;
+    display: flex;
+    padding-top: 30px;
+    justify-content: end;
+}
+
+.message{
+    flex: 4;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 0.95
+    rem;
+    line-height: 28px;
+    justify-content: center;
+    align-items: center;
+}
+.bland{
+    display: flex;
+    flex: 4;
+    font-family:'Big Shoulders Display', cursive;;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.social-links li{
+list-style: none;
+padding-right: 20px;
+}
+
+.social-links{
+    display: flex;
+}
+
+/* let take care of the footer for mobile view with the help of media query */
+@media screen and (max-width: 450px) {
+    .footer{
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: 0px;
+        background: #151515;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        padding: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        color: white;
+    }
+    .social{
+        justify-content: start;
+    }
+    ul.social-links{
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+/* let take care of the footer for tablet view with the help of media query */
+@media screen and (max-width: 840px) {
+  
+    .bland{
+        flex: 4;
+        font-size: 2.0rem;
+    }
+
+    .message{
+        font-size: 0.7rem;
+        flex: 5;
+        
+    }
+.social{
+ flex: 3;   
+}
+    .footer{
+        
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+    }
+}
