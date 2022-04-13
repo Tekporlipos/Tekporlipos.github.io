@@ -1,7 +1,7 @@
 # [art-gallery-website.github.io](https://www.art-gallery-website.github.io)
 ---
 
-# [ ![AMALITECH](https://github.com/Amalitech-2022-febuary-trainee/art-gallery-website.github.io/blob/main/amalitech.png?raw=true) ](https://amalitech.org/)
+# [ ![AMALITECH](https://github.com/art-gallery-website/modern-art-gallary/blob/main/amalitech.png?raw=true) ](https://amalitech.org/)
 
 ## Project Title: Art gallery site 
 ---
