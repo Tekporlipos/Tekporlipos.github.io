@@ -531,7 +531,6 @@ text-align: center;
     line-height: 40px;
     font-weight: 700;
   }
-  
   h2 {
     font-size: 40px;
     line-height: 40px;
@@ -663,6 +662,11 @@ text-align: center;
 }
 #mobile{
   display: block;
+image-rendering: optimizeSpeed;
+}
+
+#mobile-2{
+display: block;
 image-rendering: optimizeSpeed;
 }
 
