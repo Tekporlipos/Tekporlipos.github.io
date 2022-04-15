@@ -1,6 +1,9 @@
 /* importing two font families from google fonts api */
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@100&display=swap');
 
+
+/* strting desktop view */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +13,9 @@
 h6,h5,h4,h3, h2, h1 {
     font-family: 'Big Shoulders Display', cursive;
 }
-
+#mobile , #mobile-2{
+  display: none;
+}
 .gly-t-s h2{
     width: 300;
     font-size: 50px;
@@ -134,7 +139,7 @@ button:nth-child(2) {
   grid-row: 1;
 }
 .bnr-g:nth-child(3) {
-  grid-column: 9/13;
+  grid-column: 9/12;
   grid-row: 1;
 }
 .bnr-g:nth-child(4) {
@@ -224,6 +229,10 @@ button:nth-child(2) {
 }
 
 
+
+
+
+
 /* footer styling for desktop view */
 
 .footer{
@@ -270,9 +279,7 @@ button:nth-child(2) {
     flex: 4;
     padding-top: 20px;
 }
-.h3-like{
-    line-height: 55px;
-}
+
 .social-links li{
 list-style: none;
 padding-right: 20px;
@@ -452,3 +459,332 @@ text-align: center;
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+
+
+
+@media only screen and (max-width: 950px) {
+ 
+  h1 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    font-style: initial;
+    padding: relative;
+  }
+  
+  h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  
+  h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .gly-b-s:nth-child(1) img {
+    height: 100%;
+  }
+  .gly-b-s:nth-child(2) img {
+    height: 100%;
+  }
+  .gly-b-s:nth-child(3) {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0rem;
+  }
+  .gly p {
+    margin-top: 2rem 0;
+  }
+  .bnr a {
+    margin-left: 0.2rem;
+  }
+
+  .bnr-g:nth-child(5) {
+    grid-column: 8/13;
+    margin-left: 1rem;
+  }
+  .gly-t-s:nth-child(1) {
+    margin: 0 0;
+  }
+}
+
+
+
+/* end desktop view */
+
+@media only screen and (max-width: 900px) {
+  #maps{
+    background-image: url("/images/tablet/image-map.png");
+    height: 600px;
+    width: 100%;
+  }
+}
+
+/* start tablet vew */
+
+@media only screen and (max-width: 750px) {
+  
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  
+  h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  
+  .gly-b-s:nth-child(3) {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0rem;
+  }
+  .gly p {
+    margin-top: 1rem 0;
+  }
+  .bnr a {
+    margin-left: 0.1rem;
+  }
+
+  .bnr-g:nth-child(5) {
+    grid-column: 7/12;
+    margin-left: 1rem;
+    margin-top: 270px;
+    padding-top: 0px;
+  }
+  .bnr-g:nth-child(1) {
+    display: none;
+  }
+  .bnr-g:nth-child(2) {
+    grid-column: 1/8;
+    grid-row: 1;
+  }
+  .home h1 {
+    background: linear-gradient(to right, #151515 60%, #151515 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bnr-g:nth-child(4) {
+    grid-column: 7/12;
+    grid-row: 1;
+    margin: auto;
+    padding-right: 60;
+    margin-top: 130px;
+    padding-bottom: 0PX;
+  }
+  .gly-t-s h2{
+    width: 250;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.footer{
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0px;
+  background: #151515;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  padding: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.message{
+  flex: 6;
+}
+
+.address{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.section-2{
+  flex: 4;
+}
+.section-1 h1{
+  width: 200px;
+}
+
+.locationFoter{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.marker{
+  display: flex;
+  flex-direction: column;
+  }
+  .description{
+    width: 100%;
+  }
+ 
+#maps{
+  height: 500px;
+}
+}
+/* end of tablet view */
+
+/* start mobile view */
+
+@media only screen and (max-width: 615px){
+  #maps{
+    background-image: url("/images/mobile/image-map.png");
+    height: 600px;
+    width: 100%;
+  }
+.bnr{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bnr-g:nth-child(1){
+  display: none;
+}
+
+.bnr-g:nth-child(3){
+  display: none;
+}
+#mobile{
+  display: block;
+image-rendering: optimizeSpeed;
+}
+
+.bnr-g:nth-child(2){
+  width: 100%;
+  height: 400px;
+  display: relative;
+}
+
+.bnr-g:nth-child(4){
+  margin: 20px;
+
+}
+.bnr-g:nth-child(4) h1{
+  font-size: 60px;
+  line-height: 55px;
+
+}
+.bnr-g:nth-child(5){
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.bnr-g:nth-child(5) a{ 
+  margin-top: 0px;
+  margin-right: 20px;
+  width: 60%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.gly{
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+}
+.gly-top{
+  display: flex;
+  flex-direction: column;
+}
+.gly-t-s:nth-child(1) p{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.gly-t-s:nth-child(1) h2{
+  width: 100%;
+  padding: 0px;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0px;
+}
+
+.gly-t-s:nth-child(1){
+  padding-top: 20px;
+  order: 2;
+  
+}
+
+.gly-t-s:nth-child(2) img{
+  width: 100%;
+}
+.gly-b{
+  display: flex;
+  flex-direction: column;
+}
+.inspired:nth-child(3) h2{
+  width: 100%;
+  font-size: 50px;
+  line-height: 50px;
+}
+.inspired:nth-child(3) p{
+  width: 100%;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+.h3-like{
+font-size: 45px;
+line-height: 45px;
+}
+
+.social-links{
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+.social{
+  padding-left: 0px;
+  flex: 1;
+  padding-top: 0px;
+  justify-content: start;
+}
+.quote{
+  padding-bottom: 20px;
+}
+.p-l{
+  margin-left: 60px;
+}
+.address{
+  flex-direction: column;
+}
+
+.address h1{
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.locationFoter{
+  flex-direction: column;
+}
+.message{
+  padding-bottom: 50px;
+}
+#maps{
+  height: 450px;
+}
+}
+/* end mobile view */
+
+/* THE END!!! */
