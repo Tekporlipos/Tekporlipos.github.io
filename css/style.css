@@ -674,6 +674,7 @@ text-align: center;
 .bnr-g:nth-child(2) {
   background: url(".");
   height: auto;
+  width: 100%;
 }
 
 .bnr-g:nth-child(1){
@@ -692,11 +693,6 @@ display: block;
 image-rendering: optimizeSpeed;
 }
 
-.bnr-g:nth-child(2){
-  width: 100%;
-  height: 400px;
-  display: relative;
-}
 
 .bnr-g:nth-child(4){
   margin: 20px;
