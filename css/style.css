@@ -636,6 +636,16 @@ text-align: center;
 #maps{
   height: 500px;
 }
+#mobile-2{
+  src: url("./images/mobile/image-grid-1.jpg");
+}
+#mobile-3{
+  src: url("./images/tablet/image-grid-2.jpg");
+}
+#mobile-4{
+  src: url("./images/tablet/image-grid-3.jpg");
+}
+
 }
 /* end of tablet view */
 
@@ -664,7 +674,6 @@ text-align: center;
   display: block;
 image-rendering: optimizeSpeed;
 }
-
 #mobile-2{
 display: block;
 image-rendering: optimizeSpeed;
@@ -787,6 +796,15 @@ line-height: 45px;
 }
 #maps{
   height: 450px;
+}
+#mobile-2{
+  src: url("./images/mobile/image-grid-1.jpg");
+}
+#mobile-3{
+  src: url("./images/mobile/image-grid-2.jpg");
+}
+#mobile-4{
+  src: url("./images/mobile/image-grid-3.jpg");
 }
 }
 /* end mobile view */
