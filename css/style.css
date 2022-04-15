@@ -1,5 +1,6 @@
 /* importing two font families from google fonts api */
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,9 @@ h6,h5,h4,h3, h2, h1 {
 
 .gly-t-s h2{
     width: 300;
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 900;
 }
 .gly-t-s p{
     width: 300;
@@ -34,8 +38,8 @@ body, p {
 }
 
 h1 {
-  font-size: 85px;
-  line-height: 80px;
+  font-size: 70px;
+  line-height: 65px;
   font-weight: 700;
   font-style: initial;
   padding: relative;
@@ -267,7 +271,7 @@ button:nth-child(2) {
     padding-top: 20px;
 }
 .h3-like{
-    line-height: 60px;
+    line-height: 55px;
 }
 .social-links li{
 list-style: none;
@@ -279,11 +283,172 @@ svg{
 }
 
 svg:hover{
-    transform: rotate(360deg);
     fill:#D5966C;
     cursor: pointer;
 }
 
 .social-links{
     display: flex;
+}
+
+.locationFoter{
+  bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    background: #D5966C;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #151515;
+}
+
+.locationsocial:hover{
+  fill:#FFFFFF;
+  cursor: pointer;
+}
+
+.locationsocial{
+  fill:#151515;
+}
+
+.quoteLocation{
+  color: #151515;
+}
+
+.address{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #FFFFFF;
+  background-color: #151515;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.section-1{
+  flex: 1;
+  color: white;
+  justify-content: center;
+}
+
+.section-2{
+  flex: 1;
+  color: white !important;
+}
+
+.section-1 h1{
+  width: 300px;
+}
+
+.h2-uppercase , .h3-uppercase{
+  text-transform: uppercase;
+}
+
+.h3-gold{
+  color: #D5966C;
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+.p-light {
+  color: #FFFFFF;
+  font-size: 16px;
+  word-spacing: 5;
+}
+
+.address_p{
+  padding-bottom: 20px;
+}
+
+.p-messsage{
+  padding-top: 20px;
+}
+
+#maps{
+  background-image: url("/images/desktop/image-map.png");
+  height: 600px;
+  width: 100%;
+}
+
+
+a .btn-l:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #D5966C;
+}
+a .btn-l:nth-child(2) {
+  grid-column: 2/7;
+  grid-row:  1/5;
+  background-color: #151515;
+}
+
+
+ a:hover > .btn-l:nth-child(2) {
+  background-color: #D5966C;
+  cursor: pointer;
+}
+ a:hover > .btn-l:nth-child(1) {
+  background-color: #151515;
+  cursor: pointer;
+}
+
+.r-left{
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.p-l{
+  margin-left: 153px;
+}
+
+.marker{
+position: absolute;
+top: 200px;
+left: 55%;
+display: inline-flex;
+text-align: center;
+}
+
+.description{
+  background-color: #181616ca;
+  width: 400px;
+  border-radius: 10px;
+  display: none;
+  font-family: monospace;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.description p, .description address{
+  color: #dedcdc;
+  text-align: justify;
+  padding: 20px;
+  font-size: small;
+  line-height: 1.2;
+}
+
+.maker-image{
+  cursor: pointer;
+}
+
+.marker:hover .description{
+  display: block;
+}
+
+.marker:hover .maker-image{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
