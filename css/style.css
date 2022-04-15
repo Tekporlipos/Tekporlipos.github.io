@@ -524,12 +524,13 @@ text-align: center;
 
 /* start tablet vew */
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 810px) {
   
 
   .bnr{
   margin-bottom: 50px;
   padding-bottom: 50px;
+  height: 120vh;
   }
 
   h1 {
@@ -667,8 +668,8 @@ text-align: center;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   height: auto;
 }
 .bnr-g:nth-child(2) {
