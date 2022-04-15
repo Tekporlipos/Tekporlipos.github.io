@@ -38,16 +38,6 @@ Your challenge is to build out this art gallery website and get it looking as cl
 
 ---
 ### ***Contributors*** 👷
-
-<br/>
-<img src="https://avatars.githubusercontent.com/u/99683999?v=4" style="border-radius:50%" width="200" height="200">
-Ernest Lamptey <br/>
-
-[ernest-lamptey](https://github.com/ernest-lamptey)
-<br/>
-Back-end Developer
-
-<br/>
 <br/>
 <img src="https://avatars.githubusercontent.com/u/99318031?v=4" style="border-radius:50%" width="200" height="200">
 John Tekpor Dzikunu <br/>
