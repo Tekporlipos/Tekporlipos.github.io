@@ -667,8 +667,9 @@ text-align: center;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  height: auto;
 }
 .bnr-g:nth-child(2) {
   background: url(".");
