@@ -509,9 +509,6 @@ text-align: center;
   .gly-t-s:nth-child(1) {
     margin: 0 0;
   }
-  .bnr{
-    height: 90vh;
-  }
 }
 
 
@@ -522,6 +519,7 @@ text-align: center;
   #maps{
     background-image: url("/images/tablet/image-map.png");
     height: 600px;
+    background-repeat: no-repeat;
     width: 100%;
   }
 }
@@ -534,7 +532,7 @@ text-align: center;
   .bnr{
   margin-bottom: 50px;
   padding-bottom: 50px;
-  height: 90vh;
+  height: auto;
   }
 
   h1 {
@@ -575,10 +573,16 @@ text-align: center;
   .bnr-g:nth-child(1) {
     display: none;
   }
+
+  
   .bnr-g:nth-child(2) {
     grid-column: 1/8;
     grid-row: 1;
     background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    background: url("/images/tablet/image-hero.jpg");
   }
   .home h1 {
     background: linear-gradient(to right, #151515 60%, #151515 50%);
@@ -691,8 +695,8 @@ image-rendering: optimizeSpeed;
 
 }
 .bnr-g:nth-child(4) h1{
-  font-size: 60px;
-  line-height: 55px;
+  font-size: 50px;
+  line-height: 50px;
 
 }
 .bnr-g:nth-child(5){
@@ -727,8 +731,9 @@ image-rendering: optimizeSpeed;
 .gly-t-s:nth-child(1) h2{
   width: 100%;
   padding: 0px;
-  font-size: 50px;
-  line-height: 50px;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
   margin: 0px;
 }
 
@@ -747,8 +752,8 @@ image-rendering: optimizeSpeed;
 }
 .inspired:nth-child(3) h2{
   width: 100%;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 45px;
+  line-height: 45px;
 }
 .inspired:nth-child(3) p{
   width: 100%;
