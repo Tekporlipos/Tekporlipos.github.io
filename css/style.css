@@ -391,7 +391,7 @@ a .btn-l:nth-child(1) {
 }
 a .btn-l:nth-child(2) {
   grid-column: 2/7;
-  grid-row:  1/5;
+  grid-row:  1/6;
   background-color: #151515;
 }
 
@@ -413,7 +413,7 @@ a .btn-l:nth-child(2) {
   -o-transform: rotate(180deg);
 }
 .p-l{
-  margin-left: 153px;
+  margin-left: 90px;
 }
 
 .marker{
@@ -787,7 +787,7 @@ line-height: 45px;
   padding-bottom: 20px;
 }
 .p-l{
-  margin-left: 60px;
+  margin-left: 2px;
 }
 .address{
   flex-direction: column;
