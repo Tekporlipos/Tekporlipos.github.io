@@ -135,6 +135,7 @@ button:nth-child(2) {
   background: url("../images/desktop/image-hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   grid-column: 5/9;
   grid-row: 1;
 }
@@ -533,7 +534,7 @@ text-align: center;
   .bnr{
   margin-bottom: 50px;
   padding-bottom: 50px;
-  height: 120vh;
+  height: 90vh;
   }
 
   h1 {
