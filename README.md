@@ -1,4 +1,4 @@
-# [art-gallery-website.github.io](https://www.art-gallery-website.github.io)
+# [art-gallery-website.github.io](https://tekporlipos.github.io/)
 ---
 
 # [ ![AMALITECH](https://raw.githubusercontent.com/Tekporlipos/Tekporlipos.github.io/main/amalitech.png) ](https://amalitech.org/)
