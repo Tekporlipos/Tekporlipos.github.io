@@ -34,7 +34,7 @@ h2{
 line-height: 70px;
 }
 h3 {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 50px;
 }
 
@@ -116,7 +116,7 @@ a {
     flex: 4;
     display: flex;
     font-weight: 100;
-    font-size: 0.95rem;
+    font-size: 16px;
     line-height: 28px;
     padding-top: 20px;
     justify-content: center;
@@ -182,7 +182,7 @@ svg{
   padding-bottom: 70px;
 }
 
-.h2-uppercase , .h3-uppercase{
+.h2-uppercase{
   text-transform: uppercase;
 }
 
@@ -199,11 +199,11 @@ svg{
 }
 
 .address_p{
-  padding-bottom: 20px;
+  padding-bottom: 22px;
 }
 
 .p-messsage{
-  padding-top: 20px;
+  padding-top: 22px;
 }
 
 #maps{
@@ -290,6 +290,21 @@ text-align: center;
 }
 
 
+.section-1{
+  flex: 1;
+  color: white;
+  justify-content: center;
+}
+
+.section-2{
+  flex: 1;
+  color: white !important;
+}
+
+.section-1 h1{
+  width: 300px;
+}
+
 
 @media only screen and (max-width: 950px) {
  
@@ -311,7 +326,3 @@ text-align: center;
     line-height: 40px;
   }
 }
-
-
-
-/* end desktop view */
