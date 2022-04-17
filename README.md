@@ -1,7 +1,7 @@
 # [art-gallery-website.github.io](https://www.art-gallery-website.github.io)
 ---
 
-# [ ![AMALITECH](https://github.com/art-gallery-website/modern-art-gallary/blob/main/amalitech.png?raw=true) ](https://amalitech.org/)
+# [ ![AMALITECH](https://raw.githubusercontent.com/Tekporlipos/Tekporlipos.github.io/main/amalitech.png) ](https://amalitech.org/)
 
 ## Project Title: Art gallery site 
 ---
@@ -45,7 +45,7 @@ Ernest Lamptey <br/>
 
 [lampty](https://github.com/ernest-lamptey)
 <br/>
-Full-stack Developer
+Back-end
 
 <br/>
 <img src="https://avatars.githubusercontent.com/u/99318031?v=4" style="border-radius:50%" width="200" height="200">
