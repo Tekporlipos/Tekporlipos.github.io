@@ -508,6 +508,9 @@ text-align: center;
   .gly-t-s:nth-child(1) {
     margin: 0 0;
   }
+  .bnr{
+    height: 90vh;
+  }
 }
 
 
@@ -574,6 +577,7 @@ text-align: center;
   .bnr-g:nth-child(2) {
     grid-column: 1/8;
     grid-row: 1;
+    background-position: center;
   }
   .home h1 {
     background: linear-gradient(to right, #151515 60%, #151515 50%);
