@@ -596,22 +596,12 @@ text-align: center;
     font-weight: 700;
 }
 
-.footer{
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin: 0px;
-  background: #151515;
-  display: flex;
-  justify-content: stretch;
-  align-items: stretch;
-  padding: 50px;
+.footer, .locationFoter{
   padding-left: 20px;
   padding-right: 20px;
-  color: white;
 }
 .message{
-  flex: 6;
+  flex: 8;
 }
 
 .address{
@@ -627,10 +617,6 @@ text-align: center;
   width: 200px;
 }
 
-.locationFoter{
-    padding-left: 50px;
-    padding-right: 50px;
-}
 
 .marker{
   display: flex;
@@ -812,6 +798,7 @@ line-height: 45px;
 }
 #mobile-3{
   src: url("./images/mobile/image-grid-2.jpg");
+  height:470px;
 }
 #mobile-4{
   src: url("./images/mobile/image-grid-3.jpg");
