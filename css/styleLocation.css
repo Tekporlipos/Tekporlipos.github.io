@@ -81,6 +81,7 @@ a {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   width: 16rem;
+  height: 72px;
 }
 
 a {
@@ -215,6 +216,7 @@ svg{
 a .btn-l:nth-child(1) {
   grid-column: 1;
   grid-row: 1;
+  height: 72px;
   background-color: #D5966C;
 }
 a .btn-l:nth-child(2) {
@@ -224,13 +226,13 @@ a .btn-l:nth-child(2) {
   text-transform: uppercase;
   letter-spacing: 3.63636px;
   font-size: 20px;
-  height: auto;
   width: auto;
   background-color: #151515;
   line-height: 26px;
   font-weight: bolder;
   font-style: normal;
   margin: 0px;
+  height: 72px;
 
 }
 
