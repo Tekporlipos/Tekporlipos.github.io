@@ -257,6 +257,7 @@ a .btn-l:nth-child(1) {
   grid-column: 1;
   grid-row: 1;
   height: 72px;
+  width: 56px;
   background-color: #D5966C;
 }
 a .btn-l:nth-child(2) {
