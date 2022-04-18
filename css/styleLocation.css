@@ -80,7 +80,7 @@ a {
   text-decoration: none;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  width: 16rem;
+  width: 264px;
   height: 72px;
 }
 
