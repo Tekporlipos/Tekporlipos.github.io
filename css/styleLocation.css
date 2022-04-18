@@ -26,21 +26,21 @@ h6,h5,h4,h3, h2, h1 {
 
 .marker:hover path{
  fill: #D5966C;
- transition: all 0.5s ease-out;
- -webkit-transition: all 0.5s ease-out;
- -moz-transition: all 0.5s ease-out;
- -ms-transition: all 0.5s ease-out;
- -o-transition: all 0.5s ease-out;
+ transition: all 0.7s ease-out;
+ -webkit-transition: all 0.7s ease-out;
+ -moz-transition: all 0.7s ease-out;
+ -ms-transition: all 0.7s ease-out;
+ -o-transition: all 0.7s ease-out;
 }
 
 .marker:hover #Oval{
   fill: #151515;
   z-index: 2;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
+  transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
 }
 h1 {
   font-size: 70px;
@@ -88,11 +88,11 @@ button {
   color: #FFFFFF;
   font-weight: 700;
   padding: 0 1rem;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
+  transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
 }
 button:nth-child(1) {
   background-color: #151515;
@@ -120,11 +120,21 @@ a {
 .home a:hover > button:nth-child(1) {
   background-color: #D5966C;
   cursor: pointer;
+  transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
 }
 
 .home a:hover > button:nth-child(2) {
   background-color: #151515;
   cursor: pointer;
+  transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
 }
 
 
@@ -184,6 +194,11 @@ svg{
 .locationsocial:hover{
   fill:#FFFFFF;
   cursor: pointer;
+  transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
 }
 
 .locationsocial{
@@ -265,10 +280,20 @@ a .btn-l:nth-child(2) {
  a:hover > .btn-l:nth-child(2) {
   background-color: #D5966C;
   cursor: pointer;
+  transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
 }
  a:hover > .btn-l:nth-child(1) {
   background-color: #151515;
   cursor: pointer;
+  transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
 }
 
 .r-left{
