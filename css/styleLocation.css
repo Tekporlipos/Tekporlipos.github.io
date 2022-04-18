@@ -407,3 +407,56 @@ text-align: center;
   }
   }
   /* end of tablet view */
+
+  /* STARTING MOBILE VIEW */
+  @media only screen and (max-width: 450px){
+    #maps{
+      background-image: url("/images/mobile/image-map.png");
+      height: 600px;
+      width: 100%;
+    }
+  
+  
+  .h3-like{
+  font-size: 45px;
+  line-height: 45px;
+  }
+  
+  .social-links{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+  .social{
+    padding-left: 0px;
+    flex: 1;
+    padding-top: 0px;
+    justify-content: start;
+  }
+  .quote{
+    padding-bottom: 20px;
+  }
+  .p-l{
+    margin-left: 2px;
+  }
+  .address{
+    flex-direction: column;
+  }
+  
+  .address h1{
+    width: 100%;
+    padding-bottom: 50px;
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 900 bold;
+  }
+  
+  .locationFoter{
+    flex-direction: column;
+  }
+  .message{
+    padding-bottom: 50px;
+  }
+  
+  }
+  /* end mobile view */
