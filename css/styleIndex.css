@@ -90,12 +90,14 @@ a {
 }
 
 #btn-text {
-    margin: 20px 0 0 13.4vw;
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
     letter-spacing: 3.63636px;
     font-size: 20px;
     height: auto;
+    display: block;
+    width: auto;
+    margin: 20px auto;
 }
 
 #btn-right-side {
@@ -318,7 +320,7 @@ a:hover #btn-left-side {
     #btn-text {
         display: block;
         width: auto;
-        margin: 24px auto;
+        margin: 20px auto;
     }
 
     .gallery-section {
@@ -416,7 +418,7 @@ a:hover #btn-left-side {
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (min-width: 375px) and (max-width: 768px) {
     .title-section {
         width: 100vw;
         flex-direction: column;
@@ -471,7 +473,7 @@ a:hover #btn-left-side {
     #btn-text {
         display: block;
         width: auto;
-        margin: 24px auto;
+        margin: 20px auto;
     }
 
     .gallery-section {
