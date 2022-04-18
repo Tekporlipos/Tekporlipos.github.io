@@ -218,7 +218,7 @@ a .btn-l:nth-child(1) {
   background-color: #D5966C;
 }
 a .btn-l:nth-child(2) {
-  grid-column: 2/7;
+  grid-column: 2/9;
   grid-row:  1/6;
   background-color: #151515;
   letter-spacing: 3.63636px;
@@ -247,7 +247,7 @@ a .btn-l:nth-child(2) {
   -o-transform: rotate(180deg);
 }
 .p-l{
-  margin-left: 90px;
+  margin-left: 156px;
 }
 
 .marker{
@@ -335,7 +335,7 @@ text-align: center;
 /* * END DESKTOP VIEW STYLING * */
 /* START TABLET STYLING STYLING */
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   #maps{
     background-image: url("/images/tablet/image-map.png");
     background-repeat: no-repeat;
@@ -397,7 +397,7 @@ text-align: center;
   display: flex;
   flex-direction: column;
   top: 200px;
-  left: 40%;
+  left: 45%;
   }
   .description{
     width: auto;
