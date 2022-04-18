@@ -220,10 +220,15 @@ a .btn-l:nth-child(1) {
 a .btn-l:nth-child(2) {
   grid-column: 2/9;
   grid-row:  1/6;
-  background-color: #151515;
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
   letter-spacing: 3.63636px;
-  line-height: 24px;
-  font-weight: 800;
+  font-size: 20px;
+  height: auto;
+  width: auto;
+  background-color: #151515;
+  line-height: 26px;
+  font-weight: bolder;
   font-style: normal;
   margin: 0px;
 
