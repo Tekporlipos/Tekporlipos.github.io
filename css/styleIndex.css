@@ -52,7 +52,6 @@ a {
 }
 
 .hero {
-    background-color: bisque;
     display: flex;
     width: 68.75vw;
     height: 800px;
@@ -280,7 +279,6 @@ a:hover #btn-left-side {
     }
 
     .title-section p {
-        /* background-color: aqua; */
         height: 112px;
         width: 44.1vw;
         font-size: 18px;
@@ -420,24 +418,32 @@ a:hover #btn-left-side {
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
     .title-section {
+        width: 100vw;
         flex-direction: column;
         height: 630px;
     }
     
     .title-section p {
+        width: auto;
+        height: 112px;
         font-size: 18px;
         line-height: 28px;
-        margin: 0;
         position: relative;
-        margin: 0px 16px;
+        margin: 0 4.3vw;
+    }
+
+    .hero {
+        width: 100%;
+        height: 382px;
+        flex-direction: column;
     }
 
     #unmask {
+        width: 91.5vw;
         font-size: 60px;
         line-height: 55px;
-        margin: 0;
         position: relative;
-        margin: 32px 16px;
+        margin: 32px 4.3vw;
     }
 
     #mask {
@@ -445,7 +451,7 @@ a:hover #btn-left-side {
     }
     
     .title-section .img {
-        background-image: url(./assets/mobile/image-hero@2x.jpg);
+        background-image: url(../images/mobile/image-hero@2x.jpg);
         width: 100%;
         height: 240px;
         background-repeat: no-repeat;
@@ -457,24 +463,24 @@ a:hover #btn-left-side {
     }
 
     #btn-loc {
+        margin-top: 32px;
         top: 0;
         left: 16px;
     }
 
     #btn-text {
-        margin: 20px 0px 0px 32px;
-        text-decoration: none;
+        display: block;
+        width: auto;
+        margin: 24px auto;
     }
 
     .gallery-section {
-        width: 343px;
+        width: 91.5vw;
         height: 1605px;
-        margin-top: 120px;
-        margin-bottom: 120px;
+        margin: 120px auto;
     }
 
     .gallery-section-1 {
-        /* background-color: antiquewhite; */
         flex-direction: column-reverse;
         width: 100%;
         height: auto;
@@ -482,12 +488,13 @@ a:hover #btn-left-side {
     }
 
     .gallery-section-1-text {
+        width: 100%;
         margin: 0;
-        height: auto;
+        height: 223px;
     }
     .gallery-section-1 .img2 {
-        background-image: url(./assets/mobile/image-grid-1@2x.jpg);
-        width: 343px;
+        background-image: url(../images/mobile/image-grid-1@2x.jpg);
+        width: 91.5vw;
         height: 320px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -505,25 +512,25 @@ a:hover #btn-left-side {
     }
 
     .gallery-section-2 {
-        width: 343px;
+        width: 91.5vw;
         height: auto;
         flex-direction: column;
         margin: 0;
     }
 
     .gallery-section-2 .left-image {
-        background-image: url(./assets/mobile/image-grid-2@2x.jpg);
-        width: 100%;
+        background-image: url(../images/mobile/image-grid-2@2x.jpg);
+        width: 91.5vw;
         height: 480px;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         margin-bottom: 16px;
 
     }
 
     .gallery-section-2b .img {
-        background-image: url(./assets/mobile/image-grid-3@2x.jpg);
-        width: 100%;
+        background-image: url(../images/mobile/image-grid-3@2x.jpg);
+        width: 91.5vw;
         height: 200px;
         background-repeat: no-repeat;
         background-size: cover;
