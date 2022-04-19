@@ -297,7 +297,7 @@ a:hover #btn-left-side {
 }
 
 /* Add media queries for responsiveness */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
     .title-section {
         height: 700px;
     }
@@ -445,7 +445,7 @@ a:hover #btn-left-side {
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (max-width: 450px) {
     .title-section {
         width: 100vw;
         flex-direction: column;
