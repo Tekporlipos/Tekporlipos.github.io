@@ -12,6 +12,7 @@
 h6,h5,h4,h3, h2, h1 {
     font-family: 'Big Shoulders Display', cursive;
 }
+
 #mobile , #mobile-2{
   display: none;
 }
@@ -24,7 +25,7 @@ h6,h5,h4,h3, h2, h1 {
   -o-transform: scale(1.1);
 }
 
-.marker:hover path{
+.marker:hover path {
  fill: #D5966C;
  transition: all 0.7s ease-out;
  -webkit-transition: all 0.7s ease-out;
@@ -42,6 +43,7 @@ h6,h5,h4,h3, h2, h1 {
   -ms-transition: all 0.7s ease-out;
   -o-transition: all 0.7s ease-out;
 }
+
 h1 {
   font-size: 70px;
   line-height: 65px;
@@ -49,7 +51,8 @@ h1 {
   font-style: initial;
   padding: relative;
 }
-h2{
+
+h2 {
   width: 300;
   font-size: 50px;
   line-height: 45px;
@@ -57,13 +60,13 @@ h2{
   font-size: 70px;
 line-height: 70px;
 }
+
 h3 {
   font-size: 50px;
   line-height: 50px;
 }
 
-
-p{
+p {
     width: 300;
     word-spacing: 4.5;
     font-size: 16px;
@@ -252,7 +255,6 @@ svg{
   width: 100%;
 }
 
-
 a .btn-l:nth-child(1) {
   grid-column: 1;
   grid-row: 1;
@@ -260,6 +262,7 @@ a .btn-l:nth-child(1) {
   width: 56px;
   background-color: #D5966C;
 }
+
 a .btn-l:nth-child(2) {
   grid-column: 2/9;
   grid-row:  1/6;
@@ -274,9 +277,7 @@ a .btn-l:nth-child(2) {
   font-style: normal;
   margin: 0px;
   height: 72px;
-
 }
-
 
  a:hover > .btn-l:nth-child(2) {
   background-color: #D5966C;
@@ -287,6 +288,7 @@ a .btn-l:nth-child(2) {
   -ms-transition: all 0.7s ease-out;
   -o-transition: all 0.7s ease-out;
 }
+
  a:hover > .btn-l:nth-child(1) {
   background-color: #151515;
   cursor: pointer;
@@ -304,6 +306,7 @@ a .btn-l:nth-child(2) {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
 }
+
 .p-l{
   margin-left: 156px;
 }
@@ -344,11 +347,6 @@ text-align: center;
   display: block;
 }
 
-
-
-
-
-
 .section-1{
   flex: 1;
   color: white;
@@ -366,7 +364,6 @@ text-align: center;
 
 
 @media only screen and (max-width: 950px) {
- 
   h1 {
     font-size: 50px;
     line-height: 50px;
@@ -403,6 +400,7 @@ text-align: center;
     line-height: 45px;
     font-weight: 700;
   }
+
   h2 {
     font-size: 35px;
     line-height: 35px;
@@ -413,7 +411,6 @@ text-align: center;
     line-height: 25px;
   }
   
-  
   .locationFoter{
   padding-left: 39px;
   padding-right: 39px;
@@ -423,7 +420,6 @@ text-align: center;
   flex: 8;
   }
   
-
   .address{
     display: flex;
     flex-direction: row;
@@ -439,10 +435,12 @@ text-align: center;
   .section-2{
   flex: 2;
   }
+
   .section-1 h1{
   width: 200px;
   height: auto;
   }
+
   .section-1{
     flex: 1;
   }
@@ -453,43 +451,46 @@ text-align: center;
   top: 256px;
   left: 351px;
   }
+
   .description{
     width: auto;
   }
+
   .p-l{
     margin-left: 36px;
   }
-  }
+}
 
   @media only screen and (max-width: 500){
+    h1 {
+      font-size: 45px;
+      line-height: 45px;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 30px;
+      line-height: 30px;
+    }
     
-  h1 {
-    font-size: 45px;
-    line-height: 45px;
-    font-weight: 700;
-  }
-  h2 {
-    font-size: 30px;
-    line-height: 30px;
-  }
-  
-  h3 {
-    font-size: 25px;
-    line-height: 25px;
-  }
+    h3 {
+      font-size: 25px;
+      line-height: 25px;
+    }
 
+    .address{
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
 
-  .address{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  h1 {
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 700;
-  }
+    h1 {
+      font-size: 40px;
+      line-height: 40px;
+      font-weight: 700;
+    }
+
   .section-1 h1{
     width: auto;
     height: auto;
@@ -505,52 +506,53 @@ text-align: center;
       width: 100%;
     }
   
-  
-  .h3-like{
-  font-size: 45px;
-  line-height: 45px;
-  }
-  
-  .social-links{
-    text-align: left;
-    padding: 0px;
-    margin: 0px;
-  }
-  .social{
-    padding-left: 0px;
-    flex: 1;
-    padding-top: 0px;
-    justify-content: start;
-  }
-  .quote{
-    padding-bottom: 20px;
-  }
-  .p-l{
-    margin-left: 0px;
-  }
-  .address{
-    flex-direction: column;
-  }
-  
-  .address h1{
-    width: 100%;
-    padding-bottom: 50px;
-    font-size: 50px;
-    line-height: 45px;
-    font-weight: 900 bold;
-  }
-  .marker{
-    display: flex;
-    flex-direction: column;
-    top: 231px;
-    left: 155px;
+    .h3-like{
+      margin-top: -20px;
+      margin-bottom: 20px;
+      font-size: 20px;
+      line-height: 20px;
     }
-  .locationFoter{
-    flex-direction: column;
-  }
-  .message{
-    padding-bottom: 50px;
-  }
+    
+    .social-links{
+      text-align: left;
+      padding: 0px;
+      margin: 0px;
+    }
+    .social{
+      padding-left: 0px;
+      flex: 1;
+      padding-top: 0px;
+      justify-content: start;
+    }
+    .quote{
+      padding-bottom: 20px;
+    }
+    .p-l{
+      margin-left: 0px;
+    }
+    .address{
+      flex-direction: column;
+    }
+    
+    .address h1{
+      width: 100%;
+      padding-bottom: 50px;
+      font-size: 50px;
+      line-height: 45px;
+      font-weight: 900 bold;
+    }
+    .marker{
+      display: flex;
+      flex-direction: column;
+      top: 231px;
+      left: 155px;
+      }
+    .locationFoter{
+      flex-direction: column;
+    }
+    .message{
+      padding-bottom: 50px;
+    }
   
   }
   /* end mobile view */
